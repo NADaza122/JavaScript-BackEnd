@@ -1,0 +1,31 @@
+{
+  "name": "es6-basis-2465880",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "JAVACRIPT PROYECTO NICOLAS DAZA FICHA.2465880",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NADaza122/JavaScript-BackEnd.git"
+  },
+  "keywords": [
+    "Arreglos",
+    "funciones",
+    "y",
+    "objetos"
+  ],
+  "author": "Nicolas Daza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NADaza122/JavaScript-BackEnd/issues"
+  },
+  "homepage": "https://github.com/NADaza122/JavaScript-BackEnd#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.20"
+  }
+}
