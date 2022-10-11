@@ -1,7 +1,7 @@
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 //1.Generamos el ENDPOINT
-let endpoint = 'https://rickandmortyapi.com/api/character'
+let endpoint = 'https://pokeapi.co/api/v2/type'
 
 //1.0 Creamos la funcion de exito de la API
 const exito= (response) =>{

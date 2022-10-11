@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon async/2_callback_arrow.js"
+    "dev": "nodemon async/3_callback_request.js"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "nodemon": "^2.0.20",
+    "request": "^2.88.2",
     "xmlhttprequest": "^1.8.0"
   }
 }
-                                                                   
