@@ -60,19 +60,19 @@ console.log(PHP)*/
             75,
             80
         ]
-    }
+    }lñ
 )
 
 console.log(materias)*/
 
 //SPLICE: ELIMINAR
-const eliminar = materias.splice(3)
+/*const eliminar = materias.splice(3)*/
 
 /*console.log(eliminar)*/
 
 //FINDINDEX: ACTUALIZAR
-const actualizar = materias.splice(2,"Cultura Fisíca","Luis Baquero12","Tranversal",[
+/*const actualizar = materias.splice(2,"Cultura Fisíca","Luis Baquero12","Tranversal",[
         100,
         90,
         100])
-console.log(materias)
+console.log(materias)*/
