@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon async/1_callback_xml.js"
+    "dev": "nodemon async/2_callback_arrow.js"
   },
   "repository": {
     "type": "git",
