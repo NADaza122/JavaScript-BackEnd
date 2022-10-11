@@ -1,11 +1,17 @@
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 //1.Generamos el ENDPOINT
-let endpoint = 'https://restcountries.com/v3.1/all'
+let endpoint = 'https://rickandmortyapi.com/api/character'
 
 //1.0 Creamos la funcion de exito de la API
 const exito= (response) =>{
-    console.log(JSON.parse(response))
+    const tipos = JSON.parse(response).results
+    tipos.forEach((tipo)=>{
+        console.log('------------------------')
+        console.log(`Tipo: ${tipo.name}`)
+        console.log('------------------------')
+    })
+    //console.log(JSON.parse(response))
 }
 
 //1.1 Creamos la funcion de falla de la API
