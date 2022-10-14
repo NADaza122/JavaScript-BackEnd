@@ -5,6 +5,7 @@ let endpoint = 'https://pokeapi.co/api/v2/type'
 
 //MODO ASINCRONO
 //1.0 Creamos la funcion de exito de la API
+//CAMPO ESPECIFICO DEL TIPO(NOMBRE)
 const exito= (response) =>{
     const tipos = JSON.parse(response).results
     tipos.forEach((tipo)=>{
@@ -12,6 +13,7 @@ const exito= (response) =>{
         console.log(' ')
         console.log(`Tipo: ${tipo.name}`)
     })
+    //TODOS LOS CAMPOS DEL TIPO
     //console.log(JSON.parse(response))
 }
 
