@@ -1,4 +1,4 @@
-//MANERA CON AWAY
+//MANERA CON AWAIT
 
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
