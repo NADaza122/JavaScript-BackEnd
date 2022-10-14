@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "4de7a8dd-b5e3-499c-b031-4c2a01a55e43",
+		"name": "CLASE_14OCT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "lista uni por pais",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://universities.hipolabs.com/search?country=Colombia",
+					"protocol": "http",
+					"host": [
+						"universities",
+						"hipolabs",
+						"com"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "Colombia"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FRASES RADOM ANIMECHAN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://animechan.vercel.app/api/random",
+					"protocol": "https",
+					"host": [
+						"animechan",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MODO CALLBACK",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.fishwatch.gov/api/species",
+					"protocol": "https",
+					"host": [
+						"www",
+						"fishwatch",
+						"gov"
+					],
+					"path": [
+						"api",
+						"species"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MODOASYNCAWAIT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://x-colors.herokuapp.com/api/random",
+					"protocol": "https",
+					"host": [
+						"x-colors",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "MODOPROMISES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://emojihub.herokuapp.com/api/random",
+					"protocol": "https",
+					"host": [
+						"emojihub",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"random"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,9 +1,9 @@
-//MANERA CON AWAIT
+//EVIDENCIA METODO PROMISES SIMPLE
 
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 //1.Generamos el ENDPOINT
-let endpoint = 'https://pokeapi.co/api/v2/type'
+let endpoint = 'https://emojihub.herokuapp.com/api/random'
 
 //MODO ASINCRONO
 //1.0 Creamos la funcion de exito de la API
@@ -46,21 +46,13 @@ const get_data = (endpoint) => {
     return(promise)
 }
 
-
-
-//FUNCIONN QUE RETORNA LA PROMESA 
-//MAENRA SENCILLA
-async function f(){
-    try {
-        let response = await get_data(endpoint)
-        exito(response)
-        } catch (error){
-            fallo(error)
-        }
-    } 
-f()
-
-
-
-
-        
+//6.Invocar la funcion de GET_DATA
+get_data(endpoint)
+        //exito
+        .then((response)=> {
+            exito(response)
+        })
+        //error
+        .catch((status)=>{
+            fallo(status)
+        })
