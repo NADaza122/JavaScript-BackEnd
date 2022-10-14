@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon away/2_axios.js"
+    "dev": "nodemon await/3_needle.js"
   },
   "repository": {
     "type": "git",
