@@ -1,19 +1,19 @@
-//EVIDENCIA METODO PROMISES SIMPLE
+//PROMISES PARA LA API  POKEMON
 
 let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 //1.Generamos el ENDPOINT
-let endpoint = 'https://emojihub.herokuapp.com/api/random'
+let endpoint = ' https://strangerthings-quotes.vercel.app/api/quotes/5'
 
 //MODO ASINCRONO
 //1.0 Creamos la funcion de exito de la API
 //CAMPO ESPECIFICO DEL TIPO(NOMBRE)
 const exito= (response) =>{
-    const tipos = JSON.parse(response).results
+    const tipos = JSON.parse(response)
     tipos.forEach((tipo)=>{
         console.log('------------------------')
         console.log(' ')
-        console.log(`Tipo: ${tipo.name}`)
+        console.log(`Autor: ${tipo.author}`)
     })
     //TODOS LOS CAMPOS DEL TIPO
     //console.log(JSON.parse(response))

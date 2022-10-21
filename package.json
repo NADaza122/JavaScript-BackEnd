@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon evidencias/modoasyncawait.js"
+    "dev": "nodemon evidencias/modopromises.js"
   },
   "repository": {
     "type": "git",
