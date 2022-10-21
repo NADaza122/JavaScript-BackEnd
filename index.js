@@ -76,3 +76,17 @@ console.log(materias)*/
         90,
         100])
 console.log(materias)*/
+
+//Actualizar
+// console.log(PHP)
+// materias.findIndex((materias)=>{
+//     if(materias.id == 1){
+//         materias.class ="Cultura Fisica"
+//         materias.teacher="Luis "
+//         materias.tipo="Tranversal"
+//         materias.Notes= [4.0,5.0,3.0]
+//     }
+//     return materias;
+//  })
+
+// console.log (materias) 
